@@ -41,8 +41,8 @@ gulp.task('spec', function () {
 });
 
 gulp.task('watch', function () {
-  var watcher = gulp.watch('{src,spec}/*.js', ['test']);
+  var watcher = gulp.watch('{src,spec}/*.js', ['spec']);
   return watcher;
 });
 
-gulp.task('default', ['test', 'dist', 'docs']);
+gulp.task('default', ['spec', 'dist', 'docs']);
