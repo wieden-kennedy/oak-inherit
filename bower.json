@@ -1,0 +1,29 @@
+{
+  "name": "oak",
+  "version": "0.0.1",
+  "homepage": "https://github.com/wieden-kennedy/oak-inherit",
+  "authors": [
+    "Maxwell Folley"
+  ],
+  "description": "Inheritance package for the Oak development sutie.",
+  "main": "dist/oak-inherit.min.js",
+  "keywords": [
+    "oak",
+    "inheritance",
+    "framework",
+    "animation",
+    "collection"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "gulpfile.js",
+    "package.json",
+    "README.md",
+    "node_modules",
+    "bower_components",
+    "src",
+    "spec",
+    "bower.json"
+  ]
+}
